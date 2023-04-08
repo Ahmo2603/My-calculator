@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="calculator.js" type="text/javascript" defer></script>
+    <link href="calculator.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="everything">
+        <div class="root">
+            <div class="equation_field"></div>
+            <div class="result_field"></div>
+            <button id="addition" onclick="addition()">+</button>
+            <button id="subtraction" onclick="subtraction()">-</button>
+            <button id="multiplication" onclick="multiplication()">×</button>
+            <button id="division" onclick="division()">÷</button>
+            <button id="seven" class="light_gray" onclick="sevenNumberInput()">7</button>
+            <button id="eight" class="light_gray" onclick="eightNumberInput()">8</button>
+            <button id="nine" class="light_gray" onclick="nineNumberInput()">9</button>
+            <button id="equal" class="blue" onclick="equals()">=</button> 
+            <button id="four" class="light_gray" onclick="fourNumberInput()">4</button>
+            <button id="five" class="light_gray" onclick="fiveNumberInput()">5</button>
+            <button id="six" class="light_gray" onclick="sixNumberInput()">6</button>
+            <button id="one" class="light_gray" onclick="oneNumberInput()">1</button>
+            <button id="two" class="light_gray" onclick="twoNumberInput()">2</button>
+            <button id="three" class="light_gray" onclick="threeNumberInput()">3</button>
+            <button id="zero" class="light_gray" onclick="zeroNumberInput()">0</button>
+            <button id="decimal" class="light_gray" onclick="addingDecimalPoint()">.</button>
+            <button id="clear" class="light_gray" onclick="clearingEntry()">C</button>
+        </div>  
+    </div>
+</body>
+</html>
