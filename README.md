@@ -7,3 +7,7 @@ The calculator also has a button for each of the four basic mathematical operati
 Mathematical operations are performed by pressing the big blue button with the equal sign.
 The calculator also accepts negative numbers and can perform mathematical operations on them.
 In this calculator no number can be divided with 0.
+On the top of the calculator are two boxes.
+Before a mathematical operation is performed the first box shows what mathematical operators are used.
+After a mathematical operation has been performed the current equation is displayed in the first box.
+The second box displays the result.
